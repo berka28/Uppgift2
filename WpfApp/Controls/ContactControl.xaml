@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="WpfApp.Controls.ContactControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="65" d:DesignWidth="300">
+    <Button Background="Transparent" BorderThickness="0" HorizontalContentAlignment="Left">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image x:Name="contactImage" Grid.Column="0" Height="60" Width="60" />
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Center"> 
+                <TextBlock x:Name="contactName" FontFamily="Bookman Old Style" FontSize="14" FontStyle="Normal" FontWeight="Bold" />
+                <TextBlock x:Name="contactTitle" FontFamily="Bookman Old Style" FontStyle="Italic" />
+            </StackPanel>
+            
+            
+            
+            
+        </Grid>
+
+    </Button>
+</UserControl>
