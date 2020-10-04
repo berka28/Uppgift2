@@ -9,13 +9,13 @@
     <Grid Background="#FFCDE1F3" >
         <StackPanel x:Name="contactList" >
             <TextBlock Text="CONTACTS" FontFamily="Arial Black" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,0" />
-            <Controls:ContactControl ContactName="Maj-Britt Bergquist" ContactTitle="Retired" />
-            <Controls:ContactControl ContactName="Mathias Bergquist" ContactTitle="Student" />
-            <Controls:ContactControl ContactName="Lucas Pettersson" ContactTitle="Student" />
-            <Controls:ContactControl ContactName="Camilla Pettersson" ContactTitle="Dentist" />
-            <Controls:ContactControl ContactName="Johan Pettersson" ContactTitle="Teacher" />
-            <Controls:ContactControl ContactName="Molly Pettersson" ContactTitle="Student" />
-            <Controls:ContactControl ContactName="Tuva Pettersson" ContactTitle="Student" />
+            <Controls:ContactControl ContactName="Contact 1" ContactTitle="Role" />
+            <Controls:ContactControl ContactName="Contact 2" ContactTitle="Role" />
+            <Controls:ContactControl ContactName="Contact 3" ContactTitle="Role" />
+            <Controls:ContactControl ContactName="Contact 4" ContactTitle="Role" />
+            <Controls:ContactControl ContactName="Contact 5" ContactTitle="Role" />
+            <Controls:ContactControl ContactName="Contact 6" ContactTitle="Role" />
+            <Controls:ContactControl ContactName="Contact 7" ContactTitle="Role" />
         </StackPanel>
     </Grid>
 </UserControl>
