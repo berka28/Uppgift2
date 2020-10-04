@@ -22,5 +22,33 @@ namespace WpfApp.Views
         {
             InitializeComponent();
         }
+
+        private void nameButton1_Click(object sender, RoutedEventArgs e)
+        {
+            contact.Text = "Thor";
+            title.Text = "Avenger";
+            home.Text = "Aasgard";
+        }
+
+        private void nameButton2_Click(object sender, RoutedEventArgs e)
+        {
+            contact.Text = "Captain America";
+            title.Text = "Avenger";
+            home.Text = "Earth";
+        }
+
+        private void nameButton3_Click(object sender, RoutedEventArgs e)
+        {
+            contact.Text = "Tony \"Ironman\" Stark";
+            title.Text = "Avenger";
+            home.Text = "Earth";
+        }
+
+        private void nameButton4_Click(object sender, RoutedEventArgs e)
+        {
+            contact.Text = "Thanos";
+            title.Text = "Villain";
+            home.Text = "Somewhere in space";
+        }
     }
 }

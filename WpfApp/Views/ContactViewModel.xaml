@@ -5,17 +5,58 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="720" d:DesignWidth="1200">
     <Grid Background="#FFCDE1F3" >
-        <StackPanel x:Name="contactList" >
-            <TextBlock Text="CONTACTS" FontFamily="Arial Black" FontWeight="Bold" FontSize="20" HorizontalAlignment="Center" Margin="0,10,0,0" />
-            <Controls:ContactControl ContactName="Contact 1" ContactTitle="Role" />
-            <Controls:ContactControl ContactName="Contact 2" ContactTitle="Role" />
-            <Controls:ContactControl ContactName="Contact 3" ContactTitle="Role" />
-            <Controls:ContactControl ContactName="Contact 4" ContactTitle="Role" />
-            <Controls:ContactControl ContactName="Contact 5" ContactTitle="Role" />
-            <Controls:ContactControl ContactName="Contact 6" ContactTitle="Role" />
-            <Controls:ContactControl ContactName="Contact 7" ContactTitle="Role" />
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600" />
+            <ColumnDefinition Width="600" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Text="CONTACTS" Margin="10,5,0,5" Padding="0,10,0,10" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="24" FontWeight="Bold" FontFamily="Castellar" />
+
+        <StackPanel Grid.Column="0" Grid.Row="1" >
+            <Button x:Name="nameButton1" Click="nameButton1_Click" Background="Transparent" FontSize="18" FontFamily="Algerian" HorizontalAlignment="Left" Height="75" Width="600" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                <StackPanel>
+                    <TextBlock Text="Name" />
+                    <TextBlock Text="Title" />
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="nameButton2" Click="nameButton2_Click" Background="Transparent" FontSize="18" FontFamily="Algerian" HorizontalAlignment="Left" Height="75" Width="600" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                <StackPanel>
+                    <TextBlock Text="Name" />
+                    <TextBlock Text="Title" />
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="nameButton3" Click="nameButton3_Click" Background="Transparent" FontSize="18" FontFamily="Algerian" HorizontalAlignment="Left" Height="75" Width="600" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                <StackPanel>
+                    <TextBlock Text="Name" />
+                    <TextBlock Text="Title" />
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="nameButton4" Click="nameButton4_Click" Background="Transparent" FontSize="18" FontFamily="Algerian" HorizontalAlignment="Left" Height="75" Width="600" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                <StackPanel>
+                    <TextBlock Text="Name" />
+                    <TextBlock Text="Title" />
+                </StackPanel>
+            </Button>
         </StackPanel>
+
+        <Grid Grid.Column="1" Grid.Row="1" >
+            <StackPanel Grid.Row="0" Grid.Column="1" >
+                <TextBlock x:Name="contact" Text="" FontSize="18" FontWeight="Bold" FontFamily="Magneto" />
+                <TextBlock x:Name="title" Text="" FontSize="18" FontWeight="Bold" FontFamily="Magneto" />
+                <TextBlock x:Name="home" Text="" FontSize="18" FontWeight="Bold" FontFamily="Magneto" />
+            </StackPanel>
+        </Grid>
+
     </Grid>
 </UserControl>
