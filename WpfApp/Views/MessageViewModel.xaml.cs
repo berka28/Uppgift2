@@ -26,65 +26,65 @@ namespace WpfApp.Views
         private void messageButton1_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "CONTACT NAME";
+            from.Text = "From Contact Name";
             to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            body.Text = "Hej! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messageButton2_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "ABCd Data <ABCData@ABC.com>";
+            from.Text = "From Contact Name";
             to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            body.Text = "Hej igen! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messageButton3_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "ABCe Data <ABCData@ABC.com>";
+            from.Text = "From Contact Name";
             to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            body.Text = "Hejsan! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messageButton4_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "ABCk Data <ABCData@ABC.com>";
+            from.Text = "From Contact Name";
             to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            body.Text = "Tjena! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messageButton5_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "ABCl Data <ABCData@ABC.com>";
+            from.Text = "From Contact Name";
             to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            body.Text = "Morsning! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messageButton6_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "ABCn Data <ABCData@ABC.com>";
+            from.Text = "From Contact Name";
             to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            body.Text = "Tjabba! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messagebutton7_Click(object sender, RoutedEventArgs e)
         {
             
-            from.Text = "ABCi Data <ABCData@ABC.com>";
-            to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            from.Text = "From Contact Name";
+            to.Text = "To Mathias Bergquist";
+            body.Text = "Halloj! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
         private void messageButton8_Click(object sender, RoutedEventArgs e)
         {
            
-            from.Text = "ABCx Data <ABCData@ABC.com>";
-            to.Text = "Mathias Bergquist";
-            body.Text = "Meddelande";
+            from.Text = "Contact Name";
+            to.Text = "To Mathias Bergquist";
+            body.Text = "Hej! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
     }
 }

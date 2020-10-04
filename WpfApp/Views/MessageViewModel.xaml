@@ -5,10 +5,10 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp.Views"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
+             d:DesignHeight="720" d:DesignWidth="1200">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="500" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
@@ -18,59 +18,118 @@
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <TextBlock Text="Messages" Margin="0,25,0,0" Padding="0,10,0,10" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18" />
+            <TextBlock Grid.Column="0" Grid.Row="0" Text="Messages" Margin="20,25,0,0" Padding="0,10,0,10" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" />
+
+            <Grid Grid.Column="0" Grid.Row="1">
+
+                <StackPanel Grid.Column="0"  Background="#FFCDE1F3" VerticalAlignment="Top" Height="600" Margin="0,44,0,0">
+                    <StackPanel>
+                        <Button x:Name="messageButton1" Click="messageButton1_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04" FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton2"  Click="messageButton2_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton3"  Click="messageButton3_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton4"  Click="messageButton4_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton5"  Click="messageButton5_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton6"  Click="messageButton6_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton7"  Click="messagebutton7_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0" >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+
+                        <Button x:Name="messageButton8"  Click="messageButton8_Click" Background="Transparent" FontSize="18" FontFamily="Segoe UI" HorizontalAlignment="Left" Height="75" Width="500" HorizontalContentAlignment="Left" Padding=" 20,0,0,0" BorderThickness="0"  >
+                            <StackPanel>
+                                <TextBlock Text="From Contact Name                                                                2020-10-04 " FontWeight="Bold" FontSize="14" />
+                                <TextBlock Text="Short desciption of message here                                                                          14:31" FontSize="12" FontStyle="Normal" FontWeight="Normal" FontFamily="Arial" />
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+
+                </StackPanel>
+
+
+            </Grid>
+
+
 
         </Grid>
 
 
 
-        <StackPanel Grid.Column="0" Background="#FFCDE1F3" Grid.Row="1" Margin="0,0,0,0" VerticalAlignment="Bottom">
-            
-            
-            
-            <Button x:Name="messageButton1" Content="ABC Data 2020-09-01" Click="messageButton1_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messageButton2" Content="Message 2" Click="messageButton2_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messageButton3" Content="Message 3" Click="messageButton3_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messageButton4" Content="Message 4" Click="messageButton4_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messageButton5" Content="Message 5" Click="messageButton5_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messageButton6" Content="Message 6" Click="messageButton6_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messagebutton7" Content="Message 7" Click="messagebutton7_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-            <Button x:Name="messageButton8" Content="Message 8" Click="messageButton8_Click" Background="Transparent" Padding="25,20,0,25" FontSize="18" />
-        </StackPanel>
 
-        <Grid Grid.Column="1" Margin="20">
+        <Grid Grid.Column="1" Background="#FFF9FAFA" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="auto" />
                 <RowDefinition Height="auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
 
-            <StackPanel Grid.Row="0" >
-                <TextBlock x:Name="from" Text="From Contact Name" FontSize="18" FontWeight="Bold" />
-            </StackPanel>
+            <Grid Grid.Row="0" Margin="0,15,0,15" Grid.ColumnSpan="2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
 
-            <Grid Grid.Row="1" Margin="0,15,0,15">
+                <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" >
+                    <TextBlock x:Name="from" Text="" FontSize="18" FontWeight="Bold" />
+                    <TextBlock x:Name="to" Text="" FontSize="18" FontWeight="Bold" />
+                </StackPanel>
+
+                <StackPanel Grid.Row="0" Grid.Column="0" >
+                    <Ellipse Height="60" Width="60" Fill="#FFCDE1F3" RenderTransformOrigin="-0.262,0.467" />
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="0,15,0,15" Grid.ColumnSpan="2">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="auto" />
                 </Grid.ColumnDefinitions>
 
-                <StackPanel Grid.Column="0" VerticalAlignment="Center">
-                    
-                    <TextBlock x:Name="to" Text="" FontSize="10" />
-                </StackPanel>
-
-                <StackPanel Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center">
-                    <StackPanel Orientation="Vertical">
-                        <TextBlock x:Name="date" Text="" />
-                        <TextBlock x:Name="time" Text="" HorizontalAlignment="Right" />
-                    </StackPanel>
-                </StackPanel>
-                
             </Grid>
-            <TextBlock Grid.Row="2" x:Name="body" TextWrapping="Wrap" Text="" />
+            <TextBlock Grid.Row="1" x:Name="body" TextWrapping="Wrap" Text="" FontSize="14" Padding="10,10,30,10" Grid.ColumnSpan="2" />
 
         </Grid>
-        
+
     </Grid>
 </UserControl>
