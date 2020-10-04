@@ -27,7 +27,7 @@ namespace WpfApp.Views
         {
             
             from.Text = "From Contact Name";
-            to.Text = "Mathias Bergquist";
+            to.Text = "To Mathias Bergquist";
             body.Text = "Hej! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
@@ -35,7 +35,7 @@ namespace WpfApp.Views
         {
             
             from.Text = "From Contact Name";
-            to.Text = "Mathias Bergquist";
+            to.Text = "To Mathias Bergquist";
             body.Text = "Hej igen! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
@@ -43,7 +43,7 @@ namespace WpfApp.Views
         {
             
             from.Text = "From Contact Name";
-            to.Text = "Mathias Bergquist";
+            to.Text = "To Mathias Bergquist";
             body.Text = "Hejsan! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
@@ -51,7 +51,7 @@ namespace WpfApp.Views
         {
             
             from.Text = "From Contact Name";
-            to.Text = "Mathias Bergquist";
+            to.Text = "To Mathias Bergquist";
             body.Text = "Tjena! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
@@ -59,7 +59,7 @@ namespace WpfApp.Views
         {
             
             from.Text = "From Contact Name";
-            to.Text = "Mathias Bergquist";
+            to.Text = "To Mathias Bergquist";
             body.Text = "Morsning! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
@@ -67,7 +67,7 @@ namespace WpfApp.Views
         {
             
             from.Text = "From Contact Name";
-            to.Text = "Mathias Bergquist";
+            to.Text = "To Mathias Bergquist";
             body.Text = "Tjabba! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
 
@@ -82,7 +82,7 @@ namespace WpfApp.Views
         private void messageButton8_Click(object sender, RoutedEventArgs e)
         {
            
-            from.Text = "Contact Name";
+            from.Text = "From Contact Name";
             to.Text = "To Mathias Bergquist";
             body.Text = "Hej! Hur står det till. Skriver endast lite text här nu. \nTack för mig. Ha det gott!";
         }
